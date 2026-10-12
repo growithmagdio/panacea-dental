@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, CheckCircle, Send, MessageSquare } from 'lucide-react';
+import CrestLogo from '../components/CrestLogo';
 
 export default function BookingSection({ preselectedTreatment = '' }) {
   const [formData, setFormData] = useState({
@@ -24,6 +25,11 @@ export default function BookingSection({ preselectedTreatment = '' }) {
           
           {/* Left Info Column */}
           <div className="lg:col-span-5 flex flex-col">
+            {/* Official PANACEA DENTAL CARE Logo in Appointment Section */}
+            <div className="mb-6">
+              <CrestLogo variant="appointment" theme="light" className="h-12 sm:h-14" />
+            </div>
+
             <span className="text-xs uppercase tracking-ultra text-gold font-medium mb-3">
               Reserve Your Consultation
             </span>
@@ -33,7 +39,7 @@ export default function BookingSection({ preselectedTreatment = '' }) {
             </h2>
 
             <p className="font-sans text-base text-ivory/70 font-light leading-relaxed mb-8">
-              Schedule your private consultation with our master practitioners. Experience bespoke dental artistry in a serene environment.
+              Schedule your private consultation with our master practitioners. Experience bespoke dental artistry at PANACEA DENTAL CARE in a serene environment.
             </p>
 
             {/* Direct WhatsApp Concierge Card */}
@@ -69,7 +75,7 @@ export default function BookingSection({ preselectedTreatment = '' }) {
                     Appointment Requested
                   </h3>
                   <p className="font-sans text-sm text-ivory/80 max-w-md font-light leading-relaxed mb-6">
-                    Thank you, <strong className="text-gold font-medium">{formData.name}</strong>. Our clinical concierge will contact you shortly to confirm your consultation details.
+                    Thank you, <strong className="text-gold font-medium">{formData.name}</strong>. Our clinical concierge at PANACEA DENTAL CARE will contact you shortly to confirm your consultation details.
                   </p>
                   <button
                     onClick={() => setSubmitted(false)}
@@ -80,6 +86,11 @@ export default function BookingSection({ preselectedTreatment = '' }) {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+                  <div className="flex items-center justify-between pb-4 border-b border-gold/20 mb-2">
+                    <span className="font-serif text-xl font-light text-ivory">Patient Consultation Form</span>
+                    <CrestLogo variant="compact" theme="light" className="h-7 w-auto" />
+                  </div>
+
                   <div className="flex flex-col gap-2">
                     <label className="text-xs uppercase tracking-widest text-gold font-medium">
                       Full Name *

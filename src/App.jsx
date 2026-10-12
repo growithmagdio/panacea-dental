@@ -46,7 +46,7 @@ export default function App() {
         {/* Section 4: Treatments Grid */}
         <TreatmentsSection onSelectTreatment={(t) => scrollToBooking(t)} />
 
-        {/* Section 5: The Elix Experience */}
+        {/* Section 5: The Panacea Experience */}
         <ExperienceSection />
 
         {/* Section 6: Meet the Practitioners */}

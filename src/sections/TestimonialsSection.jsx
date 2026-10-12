@@ -9,19 +9,19 @@ export default function TestimonialsSection() {
       id: 1,
       quote: "Every smile transformation is an intimate collaboration. We listen to your desires and craft natural restorations that preserve your genuine personality.",
       title: "Personalized Smile Design",
-      tag: "ELIX Principle I",
+      tag: "Panacea Principle I",
     },
     {
       id: 2,
       quote: "We prioritize non-invasive biological techniques that preserve maximum healthy enamel and support long-term dental health.",
       title: "Enamel Preservation Standard",
-      tag: "ELIX Principle II",
+      tag: "Panacea Principle II",
     },
     {
       id: 3,
       quote: "From calm private consultation suites to serene treatment rooms, every detail is curated to remove anxiety and elevate your experience.",
       title: "Sanctuary Environment",
-      tag: "ELIX Principle III",
+      tag: "Panacea Principle III",
     },
   ];
 
@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
         </span>
 
         <h2 className="font-serif text-3xl sm:text-5xl font-light tracking-tight text-ivory mb-14">
-          The ELIX <span className="italic font-normal text-gold">Clinical Charter</span>
+          The Panacea <span className="italic font-normal text-gold">Clinical Charter</span>
         </h2>
 
         {/* Display Card */}

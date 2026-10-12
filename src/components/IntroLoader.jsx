@@ -39,14 +39,14 @@ export default function IntroLoader({ onComplete }) {
       }`}
     >
       <div className="relative flex flex-col items-center px-6">
-        {/* Official ELIX Brand Logo Animation */}
+        {/* Official PANACEA Brand Logo Animation */}
         <picture className="inline-block transition-all duration-700">
-          <source type="image/webp" srcSet="/images/elix-logo-full.webp" />
+          <source type="image/webp" srcSet="/images/panacea-logo-full-light.webp" />
           <img
-            src="/images/elix-logo-full.png"
-            alt="ELIX Dental & Aesthetic Clinic"
-            width="300"
-            height="174"
+            src="/images/panacea-logo-full-light.png"
+            alt="PANACEA DENTAL CARE"
+            width="320"
+            height="88"
             className={`w-64 sm:w-80 h-auto object-contain transition-all duration-1000 ${
               stage === 'drawing' ? 'opacity-90 scale-95' : 'opacity-100 scale-100'
             }`}

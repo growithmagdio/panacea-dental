@@ -5,7 +5,7 @@ export default function GallerySection() {
     {
       baseName: '/images/dental-hero',
       title: 'Grand Reception Lounge',
-      subtitle: 'Ivory Travertine & Brass Details',
+      subtitle: 'Fluted Forest Green & Brass Details',
       width: 800,
       height: 550,
     },

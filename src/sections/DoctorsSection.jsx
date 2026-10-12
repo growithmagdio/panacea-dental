@@ -98,7 +98,7 @@ export default function DoctorsSection() {
                 <div className="pt-4 border-t border-gold/20 flex items-center justify-between text-xs text-gold font-sans">
                   <span className="flex items-center gap-1.5">
                     <Award className="w-3.5 h-3.5" />
-                    ELIX Standard
+                    Panacea Standard
                   </span>
                   <span className="uppercase tracking-widest text-[10px] text-ivory/60 font-medium">Verified Practice</span>
                 </div>
